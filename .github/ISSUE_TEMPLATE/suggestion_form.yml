@@ -1,0 +1,45 @@
+name: 💡 Suggestion
+description: Suggest an improvement, idea, or feedback for the taskphase
+title: "[Suggestion]: "
+labels: [suggestion, feedback]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to suggest something! We value your input.
+
+  - type: input
+    id: title
+    attributes:
+      label: Suggestion Title
+      description: Give your suggestion a brief, clear title.
+      placeholder: "Improve AI module explanations"
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion-details
+    attributes:
+      label: Suggestion Details
+      description: Describe your suggestion in detail.
+      placeholder: "It would be great if we could add a short explanation on CNN and real-life examples."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area of suggestion
+      description: Which week/module does this suggestion relate to?
+      options:
+        - General
+        - Week 1: C/C++
+        - Week 2: Python / GitHub
+        - Week 3: AI/ML Intro
+        - Week 4: Decision Trees
+        - Week 5-6: OpenCV
+        - Week 7-8: ROS2 / Gazebo
+        - Week 9-10: Microcontrollers
+        - Week 11: Final Project
+    validations:
+      required: false
