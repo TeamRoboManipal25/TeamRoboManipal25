@@ -17,7 +17,7 @@ The taskphase aims to give you all round exposure to a bunch of technologies and
     - Introduction to Git and Github
 - [ ] **Week 3**
     - Artificial Intelligence and Machine Learning
-    - Basic AI and ML algorithms (Linear Regression, Logistic Regression, CNN)
+    - Basic AI and ML algorithms (Linear Regression, Logistic Regression)
 - [ ] **Week 4**
     - Decision trees and clustering algorithms(using sklearn)
 - [ ] **Week 5**
@@ -40,9 +40,7 @@ The taskphase aims to give you all round exposure to a bunch of technologies and
     - Screening and Taskphase Evaluation
     - Working with sensors
 - [ ] **Week 11**
-    - Creating a Holonomic Drive
-    - Remote control of the bot
-
+    - FINAL TASK
 
 
 
