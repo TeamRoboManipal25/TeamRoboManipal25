@@ -2,18 +2,21 @@ name: 💡 Suggestion
 description: Suggest an improvement, idea, or feedback for the taskphase
 title: "[Suggestion]: "
 labels: [suggestion, feedback]
+assignees: []
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to suggest something! We value your input.
+        👋 **Thank you for taking the time to suggest something!**
+        
+        Your input helps us improve the experience for everyone. Please fill out the form below to the best of your ability.
 
   - type: input
     id: title
     attributes:
       label: Suggestion Title
-      description: Give your suggestion a brief, clear title.
-      placeholder: "Improve AI module explanations"
+      description: A short, descriptive title for your suggestion.
+      placeholder: Improve AI module explanations
     validations:
       required: true
 
@@ -21,16 +24,17 @@ body:
     id: suggestion-details
     attributes:
       label: Suggestion Details
-      description: Describe your suggestion in detail.
-      placeholder: "It would be great if we could add a short explanation on CNN and real-life examples."
+      description: Describe your suggestion in detail. Be as specific as possible.
+      placeholder: |
+        It would be great if we could add a short explanation on CNN and include real-life use cases to make it more intuitive.
     validations:
       required: true
 
   - type: dropdown
     id: area
     attributes:
-      label: Area of suggestion
-      description: Which week/module does this suggestion relate to?
+      label: Area of Suggestion
+      description: Which week/module does your suggestion relate to?
       options:
         - General
         - Week 1: C/C++
@@ -41,5 +45,14 @@ body:
         - Week 7-8: ROS2 / Gazebo
         - Week 9-10: Microcontrollers
         - Week 11: Final Project
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes (Optional)
+      description: Any extra thoughts or context you'd like to share?
+      placeholder: "Feel free to include links, references, or screenshots."
     validations:
       required: false
