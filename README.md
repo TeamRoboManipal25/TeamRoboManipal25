@@ -1,16 +1,54 @@
-## Hi there 👋
+# Robomanipal Coding Taskphase 2025 🤖 
 
-<!--
-**TeamRoboManipal25/TeamRoboManipal25** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![Welcome](https://i.imgur.com/qYNZG2o.jpg)
 
-Here are some ideas to get you started:
+## 📚 Resources
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+A list of resources to help you get started with the taskphase 🚀.
+
+## 🦦 Taskphase Timeline
+
+The taskphase aims to give you all round exposure to a bunch of technologies and tools 🔧 that is used in the industry.
+
+- [ ] **Week 1** 
+    - Introduction to C and C++
+- [ ] **Week 2**
+    - Introduction to Python
+    - Introduction to Git and Github
+- [ ] **Week 3**
+    - Artificial Intelligence and Machine Learning
+    - Basic AI and ML algorithms (Linear Regression, Logistic Regression, CNN)
+- [ ] **Week 4**
+    - Decision trees and clustering algorithms(using sklearn)
+- [ ] **Week 5**
+    - OpenCV and Image Processing
+    - Object tracking 1
+- [ ] **Week 6**
+    - Object tracking 2
+    - Line following
+- [ ] **Week 7**
+    - Dual booting and Linux commands
+    - Introduction to ROS2
+    - Basic ROS2 commands
+- [ ] **Week 8**
+    - Introduction to TurtleSim
+    - Introduction to Gazebo
+- [ ] **Week 9**
+    - Microprocessors and Microcontrollers
+    - Introduction to Arduino and Communication Protocols
+- [ ] **Week 10**
+    - Screening and Taskphase Evaluation
+    - Working with sensors
+- [ ] **Week 11**
+    - Creating a Holonomic Drive
+    - Remote control of the bot
+
+
+
+
+
+## 👓 Appendix
+
+✨ [let us know](https://github.com/TeamRoboManipal25/TeamRoboManipal25/issues/new/choose) if you have any suggestions 🙇‍♂️. Oh, and by the way, all the best to everyone in the taskphase make sure to have a blast 🙌.
+
+---
